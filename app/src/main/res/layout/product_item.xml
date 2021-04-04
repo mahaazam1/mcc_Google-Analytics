@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp"
+    android:layout_margin="10dp"
+    app:cardElevation="5dp"
+    android:id="@+id/product_card">
+
+        <TextView
+            android:layout_margin="20dp"
+            android:id="@+id/name_product"
+            android:text="Name Product"
+            android:textSize="30dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:textColor="#F44336"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+</androidx.cardview.widget.CardView>
